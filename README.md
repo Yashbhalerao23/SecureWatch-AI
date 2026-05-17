@@ -61,8 +61,4 @@ Point your Winlogbeat `http` output to the following endpoint:
 *   **Admin**: `admin` / `admin123`
 *   **Analyst**: `analyst` / `analyst123`
 
-## 🔒 Security Note
-Never upload your `.env` or `db.sqlite3` files to GitHub. These are excluded via `.gitignore`.
 
----
-*Developed for modern cybersecurity defense.*
