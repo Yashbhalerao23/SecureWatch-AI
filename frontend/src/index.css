@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background-color: #030712;
+  color: #e5e7eb;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-soc-surface text-slate-100 antialiased;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+button, input, select, textarea {
+  @apply outline-none;
+}
+
+::selection {
+  @apply bg-soc-accent text-slate-900;
+}
+
+.panel-card {
+  @apply bg-slate-900/95 border border-soc-border shadow-panel rounded-2xl;
+}
+
+.badge-critical {
+  @apply bg-red-600/15 text-red-300 border border-red-500/30;
+}
+
+.badge-high {
+  @apply bg-orange-600/15 text-orange-300 border border-orange-500/30;
+}
+
+.badge-medium {
+  @apply bg-amber-600/15 text-amber-300 border border-amber-500/30;
+}
+
+.badge-low {
+  @apply bg-sky-600/15 text-sky-300 border border-sky-500/30;
+}

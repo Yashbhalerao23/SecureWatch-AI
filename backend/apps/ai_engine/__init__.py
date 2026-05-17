@@ -1,0 +1,7 @@
+"""
+AI Log Monitoring & Security Detection Platform
+AI Engine App
+"""
+
+default_app_config = 'apps.ai_engine.apps.AiEngineConfig'
+
