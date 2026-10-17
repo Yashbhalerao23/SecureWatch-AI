@@ -28,7 +28,7 @@
 ### 1. Backend Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/securewatch-ai.git
+git clone https://github.com/Yashbhalerao23/SecureWatch-AI.git
 cd securewatch-ai/backend
 
 # Install dependencies
